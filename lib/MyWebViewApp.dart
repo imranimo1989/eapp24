@@ -96,13 +96,14 @@ Page resource error:
   Widget build(BuildContext context) {
     return Scaffold(
 // backgroundColor: Colors.green,
-      appBar: AppBar(
+      appBar: AppBar(toolbarHeight: 40,
+        titleSpacing: 0,
         leading: Padding(
-          padding: const EdgeInsets.only(left: 8, bottom: 8, top: 8),
+          padding: const EdgeInsets.only(bottom: 4,top: 4),
           child: Image.asset(
             "assets/images/logo.png",
-            width: 20,
-            height: 20,
+            width: 15,
+            height: 15,
             fit: BoxFit.contain,
           ),
         ),
